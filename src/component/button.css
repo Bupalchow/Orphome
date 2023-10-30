@@ -1,0 +1,19 @@
+.btn{
+    color: black;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    letter-spacing: 4px;
+    word-wrap: break-word;
+    background-color: yellow;
+    padding: 20px 50px;
+    border-radius: 19px;
+    margin:  0 39%;
+    margin-top: -10px;
+
+}
+.btn:hover{
+    opacity: 0.7;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
