@@ -1,0 +1,47 @@
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery img {
+ width: 50vw;
+ height: 50vh;
+  transition: transform 0.5s; 
+}
+body {
+  margin: 0;
+  padding: 0;
+
+}
+.nav-buttons {
+  gap: 10vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8vw;
+}
+
+.gallery-button {
+  padding: 10px 20px;
+  background-color: #cdcdcd; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  transition: background-color 0.3s ease;
+}
+
+.gallery-button:hover {
+  opacity: 0.8;; 
+}
+
+.previous-button {
+  margin-right: 10px;
+}
+
+.next-button {
+  margin-left: 10px;
+}
+
