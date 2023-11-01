@@ -7,6 +7,7 @@ import Gallery from "./sections/Gallery";
 import ContactForm from "./sections/Contact";
 import FAQ from "./sections/FAQ";
 import Footer from "./sections/Footer";
+import Newsletter from "./sections/Newsletter";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Gallery/>
       <FAQ/>
       <ContactForm/>
+      <Newsletter/>
       <Footer/>
     </>
   );
