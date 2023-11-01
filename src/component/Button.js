@@ -1,9 +1,9 @@
 import React from 'react'
 import "./button.css"
-export default function Button() {
+export default function Button(props) {
   return (
     <div>
-      <button className='btn'>Find A Orphanage</button>
+      <button className='btn'>{props.title}</button>
     </div>
   )
 }
