@@ -28,7 +28,7 @@ export default function Nav(props) {
         justifyContent:"space-between"
     }
   return (
-    <div className='nav' style={{...divstyle ,height:"10vh",width:"100%" , position:"sticky" ,top:"0" , backgroundColor:props.bg}}>
+    <div className='nav' style={{...divstyle ,height:"10vh",width:"100%" , position:"sticky" ,top:"0" , backgroundColor:props.bg ,zIndex:"5" , boxShadow:" 0 2px 4px 0 rgba(0,0,0,.2)"}}>
         <div id='right' style={{display:"flex"}}>
             <img style={{...imgstyles, padding : "0 5vh"}} src={logo}></img>
             <h1 style={textstyle}>Orphome</h1>
